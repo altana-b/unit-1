@@ -24,3 +24,17 @@ td {
     border: 1px solid black;
     padding: 7.5px;
 }
+
+@media only screen and (max-width: 740px) { 
+    h1 { font-size: 4.5em; }
+    h3 { font-size: 2.2em; }
+    h2 { display: block; text-align: center; }
+    #info { float: none; display: block; text-align: center; }
+    #photo {
+        float: none;
+        display: block;
+        text-align: center;
+    }
+    #w { padding: 20px 15px; }
+    p { padding: 0; }
+}
